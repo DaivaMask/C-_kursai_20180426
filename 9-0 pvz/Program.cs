@@ -98,6 +98,7 @@ namespace _9_0_pvz
 
             ///////
             //ir dar karta//
+            //ir dar vienas komenaras
 
         }
     }
