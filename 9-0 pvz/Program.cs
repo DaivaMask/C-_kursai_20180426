@@ -96,6 +96,9 @@ namespace _9_0_pvz
 
             ////
 
+            ///////
+            //ir dar karta//
+
         }
     }
 }
