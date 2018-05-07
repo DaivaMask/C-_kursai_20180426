@@ -45,7 +45,7 @@ namespace _4_0_Test
             */
             
             Console.WriteLine("investkite rida");
-            var rida = Convert.ToInt32(console.ReadLine());
+            var rida = Convert.ToInt32(Console.ReadLine());
         }
     }
 }

@@ -17,9 +17,9 @@ namespace _10_2_uzduotis
 
             for (int i = 0; i < kiekis; i++)
             {
-                pazymiai.Add();
+                pazymiai.Add(2);
                 Console.WriteLine();
-                pazymys[i] = Convert.ToInt32(Console.ReadLine());
+                pazymiai[i] = Convert.ToInt32(Console.ReadLine());
             }
         }
     }

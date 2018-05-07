@@ -15,7 +15,7 @@ namespace _3
 
             for (int i = 0; i < suma; i++)
             {
-                Console.WriteLine("pirmi metai " + );
+                //Console.WriteLine("pirmi metai " + );
             }
         }
     }
