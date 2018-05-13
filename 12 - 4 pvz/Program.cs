@@ -10,6 +10,16 @@ namespace _12___4_pvz
     {
         static void Main(string[] args)
         {
+            var kompas = new kompiuteris();
+            //kompas.DiskoTalpa = 5;  //negalima, nes private
+            Console.WriteLine(kompas.DiskoTalpa);
+
+            var kompas2 = new kompiuteris("asdfasd", "adfa", 5);
+
+            var kompas3 = new kompiuteris();
+            kompas3.Ivedimas();
+            
+
         }
     }
 }
