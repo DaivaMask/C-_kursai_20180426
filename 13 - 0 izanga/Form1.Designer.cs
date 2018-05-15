@@ -39,8 +39,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.perkelti = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -120,6 +120,7 @@
             this.tekstoLaukelis.Name = "tekstoLaukelis";
             this.tekstoLaukelis.Size = new System.Drawing.Size(348, 27);
             this.tekstoLaukelis.TabIndex = 0;
+            this.tekstoLaukelis.TextChanged += new System.EventHandler(this.tekstoLaukelis_TextChanged);
             // 
             // groupBox3
             // 
@@ -160,6 +161,15 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Gauti duomenis is kito lango";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(168, 55);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "label1";
+            // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(23, 42);
@@ -169,15 +179,6 @@
             this.button4.Text = "Ivesti";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(168, 55);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
             // 
             // Form1
             // 

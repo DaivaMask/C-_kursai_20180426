@@ -57,5 +57,10 @@ namespace _13___0_izanga
                 }
             }
         }
+
+        private void tekstoLaukelis_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

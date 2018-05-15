@@ -13,7 +13,7 @@ namespace _13___2_dar_su_failu
 {
     public partial class Form1 : Form
     {
-        private object dataGridView2;
+        //private object dataGridView1;
 
         public List<Zmones> Zmones { get; } = new List<Zmones>();
 
@@ -31,7 +31,7 @@ namespace _13___2_dar_su_failu
         {
             using (var failas = new OpenFileDialog())
             {
-                //failas.InitialDirectory = "D:\\C#\\C_kursai_20180424\\13 - 2 dar su failu";
+                failas.InitialDirectory = "D:\\C#\\C_kursai_20180424\\13 - 2 dar su failu";
                 failas.Filter = "csv failas (*.csv)|*.csv";
 
                 if (failas.ShowDialog() == DialogResult.OK)
@@ -71,6 +71,16 @@ namespace _13___2_dar_su_failu
                 suma += metai.Amzius;
             }
             return suma;
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
         }
     }
 }

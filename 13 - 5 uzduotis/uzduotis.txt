@@ -1,0 +1,7 @@
+csv failas su knygu sarasu: knygos autorius, pavadinimas, puslapiu skaicius, kaina
+
+isvesti i ekrana knygu sarasa
+
+
+? ivesti nauja knyga i sarasa
+? parodyti pigiausias (<3eur)
