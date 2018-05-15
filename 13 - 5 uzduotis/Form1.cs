@@ -68,10 +68,20 @@ namespace _13___5_uzduotis
         {
             //MessageBox.Show("Reikes ivesti autoriu, pavadinima, puslapiu skaiciu ir kaina.");
 
-            Ivedimas ivedimas = new Ivedimas();
+            //Ivedimas ivedimas = new Ivedimas();
 
-            ivedimas.Show();
+            //ivedimas.ShowDialog();
 
+
+            using (var ivesti = new Ivedimas())
+            {
+                ivesti.ShowDialog();
+
+                if (ivesti.DialogResult == DialogResult.OK)
+                {
+
+                }
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)

@@ -22,12 +22,12 @@ namespace _13___5_uzduotis
         private void button1_Click(object sender, EventArgs e)
         {
             // cia pasiimti visus knygos duomenis ir sudeti i klaseje esanti objekta knyga
-            using (var ivesti = new Ivedimas())
-            {
-               ivesti.ShowDialog();
+            //using (var ivesti = new Ivedimas())
+            //{
+               //ivesti.ShowDialog();
 
-                if (ivesti.DialogResult == DialogResult.OK)
-                {
+                //if (ivesti.DialogResult == DialogResult.OK)
+                //{
                     //textBox1.Text = Knyga.Autorius;
                     //textBox2.Text = Knyga.Pavadinimas;
                     //textBox3.Text = Convert.ToInt32(Knyga.PuslapiuSkaicius);
@@ -46,8 +46,8 @@ namespace _13___5_uzduotis
 
 
 
-                }
-            }
+                //}
+            //}
 
 
             //textBox1 = Knyga.Autorius;
