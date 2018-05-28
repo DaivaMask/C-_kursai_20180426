@@ -12,7 +12,7 @@ namespace _13___5_uzduotis
 {
     public partial class Ivedimas : Form
     {
-        public Knyga Knyga { get; private set; }
+        public Knyga Knyga { get;  set; }
 
         public Ivedimas()
         {
@@ -44,7 +44,7 @@ namespace _13___5_uzduotis
 
                     Knyga = new Knyga(vardas, uzvadinimas, puslapiai, kainuke);
 
-
+            
 
                 //}
             //}

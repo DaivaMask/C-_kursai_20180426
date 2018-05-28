@@ -14,8 +14,8 @@ namespace _13___5_uzduotis
     public partial class Biblioteka : Form
     //private void atidarytiFailaToolStripMenuItem_Click(object sender, EventArgs e)
     {
-        public List<Knyga> Knygos { get; } = new List<Knyga>();
-
+        public List<Knyga> Knygos { get; set; } = new List<Knyga>();
+      
 
         public Biblioteka()
         {
@@ -66,19 +66,25 @@ namespace _13___5_uzduotis
 
         private void ivestinaujaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("Reikes ivesti autoriu, pavadinima, puslapiu skaiciu ir kaina.");
-
-            //Ivedimas ivedimas = new Ivedimas();
-
-            //ivedimas.ShowDialog();
-
-
+          
             using (var ivesti = new Ivedimas())
             {
                 ivesti.ShowDialog();
 
                 if (ivesti.DialogResult == DialogResult.OK)
                 {
+                    //turi itraukti duomenis
+                    //Toj vietoj turėtų būti sąrašas.Add(tosFormosObjektas.KnygosObjektasFormoje)
+
+                    //Knygos.Add(new Knyga())  ;
+                    //Knygos.Add(Knyga.Pavadinimas);
+                    //Knygos.Add(Knyga.PuslapiuSkaicius);
+                    //Knygos.Add(Knyga.Kaina);
+
+                    //context.savechanges();
+
+
+
 
                 }
             }

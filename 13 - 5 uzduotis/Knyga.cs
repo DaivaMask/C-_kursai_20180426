@@ -30,5 +30,10 @@ namespace _13___5_uzduotis
             Kaina = Convert.ToDouble(duomenys[3]);
         }
 
+        public Knyga()
+        {
+
+        }
+
     }
 }
